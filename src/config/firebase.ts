@@ -1,18 +1,17 @@
-/// <reference types="vite/client" />
 // Firebase Configuration
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import { getStorage } from 'firebase/storage';
 
-// ⚠️ IMPORTANT: These must match your Flutter app's Firebase project
+// Firebase configuration for BYKI (oxhub-42c99)
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY as string,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN as string,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID as string,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET as string,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID as string,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID as string,
+  apiKey: "AIzaSyBkYbWweI3F_Zulo35_bhpeOcodURbFMXA",
+  authDomain: "oxhub-42c99.firebaseapp.com",
+  projectId: "oxhub-42c99",
+  storageBucket: "oxhub-42c99.firebasestorage.app",
+  messagingSenderId: "319585203062",
+  appId: "1:319585203062:web:759b5a25e533ff65b3c057",
 };
 
 // Verify configuration
